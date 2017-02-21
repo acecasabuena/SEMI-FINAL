@@ -1,0 +1,236 @@
+*{
+    margin:0px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+        margin-bottom: 28px;
+}
+nav{
+    height: 100px;
+    background-color: rgba(0,0,0,.5);
+}
+nav{
+    background-color: rgba(0,0,0,.5);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    border-bottom: 0px dashed white;
+    
+}
+nav:first-child{
+    margin: 0;
+}
+nav a:active{
+    text-decoration: underline;
+}
+
+nav a{
+    margin-left: 25px;
+    color: #fff;
+    line-height: 60px;
+    text-shadow: 2px,2px 2px,black;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.sect{
+
+    height: 648px;
+    background-attachment: fixed;
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+.sectOne{
+    background-image: url(images/img/u1.jpg);  
+}
+
+.sectTwo{
+    background-image: url(images/img/u.jpg);
+}
+.sect2{
+
+    height: 735px;
+    background-attachment: fixed;
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+.sectthree{
+    background-image: url(images/img/u.jpg);
+}
+.sect3{
+
+    height: 500px;
+    background-attachment: fixed;
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+
+.footer{
+    background-image:url(images/img/p.jpg);
+}
+.sect1{
+
+    height: 30%;
+    background-attachment: fixed;
+    background-size: 100% auto;;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+.t{
+    float: left;
+    color: white;
+    font-size: 75px;
+    font-family: Letter Gothic STD;
+    margin: 3px;
+    height: 60px;
+
+}
+
+.text{
+    float: right;
+      clear: both;
+    width:50%;
+    font-family: Letter Gothic STD;
+    color: #FFFFFF;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 42px;
+    margin-right: 110px;
+    height:380px;
+     text-shadow: black 2px 2px 2px;
+
+
+    margin-bottom: 30px;
+
+    
+
+
+
+}
+
+
+
+
+.icon{
+
+    width: 450px;
+    height: 55px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Letter Gothic STD;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.l{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 200px;
+
+}
+.l:hover{
+
+	-moz-transform: scale(1.20,1.20);
+	-o-transform: scale(1.20,1.20);
+	-webkit-transform: scale(1.20,1.20);
+	transform: scale(1.20,1.20);
+    border-radius:8px 8px;
+
+}
+.m{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.m:hover{
+
+	-moz-transform: scale(1.20,1.20);
+	-o-transform: scale(1.20,1.20);
+	-webkit-transform: scale(1.20,1.20);
+	transform: scale(1.20,1.20);
+    border-radius:8px 8px;
+
+}
+.n{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.n:hover{
+
+	-moz-transform: scale(1.20,1.20);
+	-o-transform: scale(1.20,1.20);
+	-webkit-transform: scale(1.20,1.20);
+	transform: scale(1.20,1.20);
+    border-radius:8px 8px;
+}
+.image{
+    position: absolute;
+    background-image: url(images/img/w.png);
+    
+    width: 38%;
+    height: 460px;
+    clear: both;
+    margin-left: 60px;
+    background-size: 85% auto;
+    background-repeat: no-repeat;
+    margin-top: 35px;
+}
+.title{
+    width: 40%;
+    color: white;
+    height: 60px;
+    font-size: 60px;
+    float: right;
+        margin-right: 285px;
+        font-family: Lucida Handwriting Italic;
+        text-shadow: green 2px 3px 3px;
+}
+
+.pp{
+
+    font-family: tahoma;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 2px;
+}
+.pp1{
+    margin-bottom: 2px;
+    font-family: tahoma;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.comm{
+    float: left;
+    margin: 55px 400px ;
+    text-align: center;
+    width: 40%;
+    height: 280px;
+}
